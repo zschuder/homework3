@@ -31,9 +31,11 @@ maximum = myList[1]
 
 #min while loop function
 #def find_min_whileLoop(myList,minimum):
-#    while minimum > myList[i]:
-#        minimum == i
-#    return minimum
+#    i = 0
+#    while i != len(myList):
+#        if myList[i] < minimum:
+#            minimum = myList[i]
+#        return minimum
 #print(find_min_whileLoop(myList,minimum))
 
 #max for loop function
@@ -46,7 +48,9 @@ maximum = myList[1]
 
 #max while loop function
 def find_max_whileLoop(myList,maximum):
-    while maximum > myList[i]:
-        maximum == i
-    return maximum
+    i = 0
+    while i != len(myList):
+        if myList[i] > maximum:
+            maximum = myList[i]
+        return maximum
 print(find_max_whileLoop(myList,maximum))
